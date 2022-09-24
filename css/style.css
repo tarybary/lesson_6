@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+main {
+   font-family: "lato";
+   font-size: 16px;
+   line-height: 160%;
+   /* font-weight: 400; */
+   color: #424551;
+}
+img {
+   max-width: 100%;
+}
+[class*="__container"]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+.title {
+   margin-bottom: 92px;
+}
+h1{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   /* align-items: center; */
+}
+.image {
+   margin-bottom: 60px;
+}
+.text-bold {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+.list,.text p {
+   margin-bottom: 24px;
+}
+.text-moved {
+   margin: 48px 0;    /* схлопую */
+   padding-left: 58px;
+}
+li {
+   padding-left: 32px;
+}
+header {
+   /* margin: 25px 0; */
+}
+
+.button-figma {
+   margin: 15px 25px;
+   /* display: inline-block; */
+
+
+}
+.btn-figma {
+   padding: 15px;
+   background: rgba(199, 28, 28, 0.808);
+   /* display: inline-block; */
+   width: 100px;
+   display: block;
+   margin: 0 auto;
+   border-radius: 70% 30% 78% 22% / 29% 77% 23% 71% ;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+   outline: 10px solid rgba(255, 0, 0, 0.123);
+}
+.training{
+}
+.block {
+   background: rgb(89, 192, 123);
+   display: inline-block;
+   height: 500px;
+   overflow: auto;
+   width: 300px;
+   border: 5px solid #1E212C;
+   opacity: 0.5;
+}
+.inline {
+   background: rgb(201, 70, 206);
+   display: inline-block;
+   overflow: hidden;
+   height: 100px;
+   width: 300px;
+   /* overflow: auto; */
+}
+.training img {
+   max-width: 100%;
+   max-height: 100px;
+   display: none;
+}
+
+.menu-items div {
+   display: inline-block;
+}
+.menu-item {
+   background: rgba(75, 184, 157, 0.301);
+   width: 250px;
+   height: 500px;
+   overflow: auto;
+}
+.hidden {
+   visibility: hidden;
+}
